@@ -10,4 +10,4 @@ RUN go build -o /products
 
 EXPOSE 8081
 
-CMD [ "/hello-world" ]
+CMD [ "products" ]
