@@ -30,8 +30,8 @@ func main() {
 	g.GET("/:id", handler.GetProduct)
 	g.GET("/", handler.ListProducts)
 
-	log.Println("Server started at :8080")
-	if err := r.Run(":8080"); err != nil {
+	log.Println("Server started at :8081")
+	if err := r.Run(":8081"); err != nil {
 		log.Fatalf("failed to run server: %v", err)
 	}
 }
